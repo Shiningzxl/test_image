@@ -8,7 +8,7 @@ module test_image # (
 	//
 	input											clk					,	
 	input											i_fval				,	
-	input											i_lval				,	
+	input											i_lval				,	////
 	input	[SENSOR_DAT_WIDTH*CHANNEL_NUM-1:0]		iv_pix_data			,	
 	
 	input	[2:0]									iv_test_image_sel	,	
